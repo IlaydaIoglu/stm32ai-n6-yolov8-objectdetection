@@ -150,6 +150,17 @@ After deployment is complete:
 
 > For boot switch/jumper positions and board connection details, see [HARDWARE_GUIDE.md](HARDWARE_GUIDE.md).
 
+## ST Object Detection
+
+<p align="center">
+  <img src="docs/n6IMG.jpeg" width="400" alt="YOLOv8 running on STM32N6 - real-time person detection">
+</p>
+
+*Real-time YOLOv8 person detection running on STM32N6570-DK*
+
+End-to-end YOLOv8-based object detection...
+
+
 ## Project Structure
 
 ```
