@@ -122,17 +122,17 @@ You can edit quantization settings in the `user_config_quant.yaml` file:
 
 ```yaml
 model:
-  model_name: yolov8n_256
+  name: yolov8n_256
   model_path: ../yolov8n_saved_model
   input_shape: [256, 256, 3]
 
 quantization:
-  quantizer: TFlite_converter
-  quantization_type: PTQ
+  fake: False
+  quantization_type: per_tensor
   quantization_input_type: uint8
-  quantization_output_type: float
-  granularity: per_tensor
-  calibration_images_path: ../datasets/coco8/images/val
+  quantization_output_type: int8
+  calib_dataset_path: ../datasets/coco8/images/val
+  export_path: ./quantized_models
 ```
 
 #### Step 3: STM32N6 Deployment
