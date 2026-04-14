@@ -30,7 +30,7 @@ munch==4.0.0
 
 # Data Processing
 numpy==1.26.4
-opencv-python==4.13.0.92
+opencv-python==4.9.0.80
 pillow==12.1.1
 scipy==1.17.1
 matplotlib==3.10.8
