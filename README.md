@@ -157,6 +157,7 @@ stm32ai-n6-yolov8-objectdetection/
 ├── pipeline.py                  # Main script that runs all steps
 ├── requirements.txt             # Python dependencies
 ├── README.md                    # Project documentation
+├── HARDWARE_GUIDE.md            # Hardware setup and configuration guide
 ├── LICENSE.md                   # License information
 ├── SECURITY.md                  # Security policy
 │
@@ -169,12 +170,14 @@ stm32ai-n6-yolov8-objectdetection/
 │   ├── compression/             # Model compression utilities
 │   ├── data_augmentation/       # Data augmentation tools
 │   ├── deployment/              # Deployment utilities
+│   ├── doc/                     # Documentation resources
 │   ├── evaluation/              # Model evaluation tools
 │   ├── model_utils/             # Model utilities
 │   ├── onnx_utils/              # ONNX conversion utilities
 │   ├── optimization/            # Optimization tools
 │   ├── prediction/              # Prediction utilities
 │   ├── quantization/            # Quantization tools
+│   ├── registries/              # Model/component registries
 │   ├── stm32ai_dc/              # STM32AI Developer Cloud
 │   ├── stm32ai_local/           # STM32AI Local tools
 │   ├── stm_ai_runner/           # STM AI runner
