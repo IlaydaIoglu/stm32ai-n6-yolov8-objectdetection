@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Output / generated model files
+yolov8_quantization/outputs/
+yolov8_quantization/quantized_models/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
